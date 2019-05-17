@@ -1,11 +1,9 @@
-# Mr.2
+# Mr2.js
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![ZH](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-README-blue.svg)](https://github.com/txthinking/mr2.js/blob/master/README_zh.md)
 
-mr2.js is js client of [mr2](https://github.com/txthinking/mr2).
-
-> [mr2](https://github.com/txthinking/mr2) can help you expose local server to external network. Support both TCP/UDP, of course support HTTP.<br/>
+Mr2.js is js client of [mr2](https://github.com/txthinking/mr2) can help you expose local server to external network.
 
 ### Install
 
@@ -15,16 +13,42 @@ $ npm install -g todo
 
 ### Usage
 
+```
+$ mr2 -c 127.0.0.1:1234
+```
+
+### Advanced usage
+
 #### Built-in server
 
 ```
-# Local server is 127.0.0.1:1234
+# expose your local server 127.0.0.1:1234
 $ mr2 -c 127.0.0.1:1234
 ```
 
 ```
-# Local web root is /path/to/www, expect to expose: server_address:5678
+# expose your local directory /path/to/www
 $ mr2 -d /path/to/www
+```
+
+```
+# View built-in server list
+$ mr2 -l
+```
+
+```
+# Specify a built-in server
+$ mr2 -s us.mr2.dev:2222 -c 127.0.0.1:1234
+```
+
+```
+# Specify a subdomain
+$ mr2 -D xxx -c 127.0.0.1:1234
+```
+
+```
+# Specify a built-in server and subdomain
+$ mr2 -s us.mr2.dev:2222 -D xxx -c 127.0.0.1:1234
 ```
 
 #### Customize server
@@ -36,7 +60,7 @@ $ mr2 -s server_address:port -p password -P 5678 -c 127.0.0.1:1234
 
 ```
 # Local web root is /path/to/www, expect to expose: server_address:5678
-$ mr2 client -s server_address:port -p password -P 5678 --clientDirectory /path/to/www
+$ mr2 -s server_address:port -p password -P 5678 -d /path/to/www
 ```
 
 ## License
