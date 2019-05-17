@@ -5,7 +5,7 @@
 
 Mr2.js is js client of [mr2](https://github.com/txthinking/mr2) can help you expose local server to external network.
 
-### Install
+## Install
 
 ```
 $ npm install -g todo
@@ -17,9 +17,9 @@ $ npm install -g todo
 $ mr2 -c 127.0.0.1:1234
 ```
 
-### Advanced usage
+## Advanced usage
 
-#### Built-in server
+### Built-in server
 
 ```
 # expose your local server 127.0.0.1:1234
@@ -51,7 +51,7 @@ $ mr2 -D xxx -c 127.0.0.1:1234
 $ mr2 -s us.mr2.dev:2222 -D xxx -c 127.0.0.1:1234
 ```
 
-#### Customize server
+### Customize server
 
 ```
 # Local server is 127.0.0.1:1234, expect to expose: server_address:5678
