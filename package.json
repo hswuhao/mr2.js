@@ -1,0 +1,39 @@
+{
+  "name": "@txthinking/mr2",
+  "version": "20190518.0.0",
+  "bin": {
+    "mr2": "index.js"
+  },
+  "file": [
+    "index.js",
+    "binary"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cloud@txthinking.com",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "addr-to-ip-port": "^1.5.1",
+    "commander": "^2.20.0",
+    "md5": "^2.2.1",
+    "node-machine-id": "^1.1.10",
+    "superagent": "^5.0.5"
+  },
+  "repository": "txthinking/mr2.js",
+  "keywords": [
+    "expose",
+    "tunnel",
+    "proxy",
+    "firewall",
+    "tcp",
+    "udp",
+    "nat",
+    "https",
+    "server",
+    "http"
+  ],
+  "main": "index.js",
+  "devDependencies": {},
+  "description": "Mr.2 can help you expose local server to external network. Support both TCP/UDP, of course support HTTP."
+}

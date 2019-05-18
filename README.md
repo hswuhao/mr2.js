@@ -3,12 +3,12 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![ZH](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-README-blue.svg)](https://github.com/txthinking/mr2.js/blob/master/README_zh.md)
 
-Mr2.js is js client of [mr2](https://github.com/txthinking/mr2) can help you expose local server to external network.
+Mr2.js is javascript client of [mr2](https://github.com/txthinking/mr2) can help you expose local server to external network.
 
 ## Install
 
 ```
-$ npm install -g todo
+$ npm install -g @txthinking/mr2
 ```
 
 ### Usage
@@ -32,6 +32,11 @@ $ mr2 -d /path/to/www
 ```
 
 ```
+# Specify a subdomain
+$ mr2 -D xxx -c 127.0.0.1:1234
+```
+
+```
 # View built-in server list
 $ mr2 -l
 ```
@@ -39,11 +44,6 @@ $ mr2 -l
 ```
 # Specify a built-in server
 $ mr2 -s us.mr2.dev:2222 -c 127.0.0.1:1234
-```
-
-```
-# Specify a subdomain
-$ mr2 -D xxx -c 127.0.0.1:1234
 ```
 
 ```
