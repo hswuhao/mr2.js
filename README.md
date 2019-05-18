@@ -1,7 +1,7 @@
 # Mr2.js
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
-[![ZH](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-README-blue.svg)](https://github.com/txthinking/mr2.js/blob/master/README_zh.md)
+[![ZH](https://img.shields.io/badge/EN-README-blue.svg)](https://github.com/txthinking/mr2.js/blob/master/README_zh.md)
 
 Mr2.js is javascript client of [mr2](https://github.com/txthinking/mr2) can help you expose local server to external network.
 
@@ -51,7 +51,7 @@ $ mr2 -s us.mr2.dev:2222 -c 127.0.0.1:1234
 $ mr2 -s us.mr2.dev:2222 -D xxx -c 127.0.0.1:1234
 ```
 
-### Customize server
+### Customize [mr2](https://github.com/txthinking/mr2) server
 
 ```
 # Local server is 127.0.0.1:1234, expect to expose: server_address:5678

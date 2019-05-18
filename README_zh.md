@@ -51,7 +51,7 @@ $ mr2 -s us.mr2.dev:2222 -c 127.0.0.1:1234
 $ mr2 -s us.mr2.dev:2222 -D xxx -c 127.0.0.1:1234
 ```
 
-### 使用自己的 (mr2)[https://github.com/txthinking/mr2] 服务器
+### 使用自己的 [mr2](https://github.com/txthinking/mr2) 服务器
 
 ```
 # 将本地服务 127.0.0.1:1234, 暴露在外网: server_address:5678
