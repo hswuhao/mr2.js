@@ -1,7 +1,7 @@
 # Mr2.js
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
-[![ZH](https://img.shields.io/badge/EN-README-blue.svg)](https://github.com/txthinking/mr2.js/blob/master/README_zh.md)
+[![ZH](https://img.shields.io/badge/EN-README-blue.svg)](https://github.com/txthinking/mr2.js/blob/master/README.md)
 
 Mr2.js 是 [mr2](https://github.com/txthinking/mr2) 的javascript客户端, 可以帮助你将内网服务器暴露在外网.
 
