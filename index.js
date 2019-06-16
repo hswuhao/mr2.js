@@ -5,7 +5,7 @@ var {execSync} = require('child_process');
 var addrToIPPort = require('addr-to-ip-port');
 var a = require('commander');
 a
-  .version('20190519')
+  .version('20190616')
   .option('-s, --server <server>', 'Like: 1.2.3.4:5, default choose one from built-in server list')
   .option('-p, --password <password>', 'Like: xxx, default choose one from built-in server list')
   .option('-D, --serverDomain <serverDomain>', 'Subdomain, like: xxx, default use your machineid, only works with built-in server')

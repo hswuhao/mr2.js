@@ -1,6 +1,6 @@
 {
   "name": "@txthinking/mr2",
-  "version": "20190519.0.0",
+  "version": "20190616.0.0",
   "bin": {
     "mr2": "index.js"
   },
