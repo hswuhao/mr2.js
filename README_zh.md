@@ -3,6 +3,8 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![ZH](https://img.shields.io/badge/EN-README-blue.svg)](https://github.com/txthinking/mr2.js/blob/master/README.md)
 
+**弃用! 请使用 [https://github.com/txthinking/mr2](https://github.com/txthinking/mr2)替代**
+
 Mr2.js 是 [mr2](https://github.com/txthinking/mr2) 的javascript客户端, 内置免费服务器, 可以帮助你将内网服务器暴露在外网.
 
 ## 安装
