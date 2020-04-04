@@ -3,6 +3,9 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![EN](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-README-blue.svg)](https://github.com/txthinking/mr2.js/blob/master/README_zh.md)
 
+
+Deprecated! Please use [mr2](https://github.com/txthinking/mr2) instead [https://github.com/txthinking/mr2](https://github.com/txthinking/mr2)
+
 Mr2.js is javascript client with built-in free server of [mr2](https://github.com/txthinking/mr2) can help you expose local server to external network.
 
 ## Install
